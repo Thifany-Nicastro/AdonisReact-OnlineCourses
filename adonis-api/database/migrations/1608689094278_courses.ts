@@ -8,6 +8,7 @@ export default class Courses extends BaseSchema {
       table.increments('id')
       table.string('name')
       table.text('description')
+      table.decimal('price')
       table.timestamps(true)
     })
   }
